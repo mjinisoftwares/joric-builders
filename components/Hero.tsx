@@ -6,10 +6,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const carouselImages = [
-  "/joric.png",
-  "/images/architectural-design.png",
-  "/images/construction-management.png",
-  "/images/structural-engineering.png"
+  "/joric-1.png",
+  "/joric-2.png",
+  "/joric-3.png",
 ]
 
 export default function Hero() {

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, CheckCircle, Hammer, Building2, Palette, Zap } from 'lucide-react'
 import Hero from '@/components/Hero'
+import WhyChooseUs from '@/components/WhyChooseUs'
 
 export default function Home() {
   return (
@@ -80,48 +81,10 @@ export default function Home() {
         </section>
 
         {/* Why Choose Us */}
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-6">
-                <h2 className="text-4xl font-bold text-foreground">Why Choose Joric Builders?</h2>
-                <p className="text-lg text-gray-600">
-                  We combine expertise, modern technology, and quality craftsmanship to deliver construction excellence.
-                </p>
-
-                <div className="space-y-4">
-                  {[
-                    'Modern design-to-build solutions',
-                    'Experienced architectural and structural team',
-                    'Cost-effective building methods',
-                    'Timely project completion',
-                    'Quality assurance at every stage',
-                    'Nationwide service coverage',
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-center gap-3">
-                      <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0" />
-                      <p className="text-foreground">{item}</p>
-                    </div>
-                  ))}
-                </div>
-
-                <Link
-                  href="/about"
-                  className="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
-                >
-                  About Us <ArrowRight className="ml-2" size={18} />
-                </Link>
-              </div>
-
-              <div className="bg-gradient-to-br from-secondary/20 to-accent/20 rounded-2xl p-12 flex items-center justify-center min-h-96">
-                <Palette className="w-32 h-32 text-secondary opacity-50" />
-              </div>
-            </div>
-          </div>
-        </section>
+      <WhyChooseUs />
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-primary to-primary-foreground text-white">
+        <section className="py-20 bg-accent text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
             <p className="text-xl text-gray-100 max-w-2xl mx-auto mb-8">

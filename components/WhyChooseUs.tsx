@@ -47,10 +47,11 @@ export default function WhyChooseUs() {
             </span>
 
             <h2 className="text-4xl md:text-5xl font-black text-primary leading-tight mb-6">
-              Building Excellence,
+             Why We're the Best
               <span className="block text-accent">
-                Delivering Confidence
+               Construction
               </span>
+               Company In Kenya
             </h2>
 
             <p className="text-lg text-gray-600 leading-8 mb-10">

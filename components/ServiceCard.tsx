@@ -21,7 +21,7 @@ export default function ServiceCard({ service }: { service: Service }) {
   const IconComponent = iconMap[service.icon] || Hammer;
 
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all group flex flex-col h-full border-t-4 border-secondary">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all group flex flex-col h-full border-t-4 border-primary">
       <div className="relative h-48 w-full overflow-hidden">
         <Image 
           src={service.image} 
@@ -31,7 +31,7 @@ export default function ServiceCard({ service }: { service: Service }) {
         />
         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
         <div className="absolute top-4 right-4 bg-white p-2 rounded-lg shadow-md">
-          <IconComponent className="w-6 h-6 text-secondary" />
+          <IconComponent className="w-6 h-6 text-primary" />
         </div>
       </div>
       <div className="p-6 flex flex-col flex-grow">
@@ -41,7 +41,7 @@ export default function ServiceCard({ service }: { service: Service }) {
         </p>
         <Link 
           href={`/services/${service.slug}`} 
-          className="text-secondary font-semibold hover:text-primary transition-colors flex items-center mt-auto"
+          className="text-accent border border-accent px-4 py-2 rounded-md w-fit  font-semibold hover:text-primary transition-colors flex items-center mt-auto"
         >
           Learn More <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
         </Link>

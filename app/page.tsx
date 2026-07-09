@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* CTA Section */}
         <section className="py-20 bg-accent text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 text-center">
             <h2 className="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
             <p className="text-xl text-gray-100 max-w-2xl mx-auto mb-8">
               Get in touch with our team today for a consultation on your construction needs.

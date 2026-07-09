@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, CheckCircle, Hammer, Building2, Palette, Zap } from 'lucide-react'
 import Hero from '@/components/Hero'
+import Services from '@/components/Services'
 import WhyChooseUs from '@/components/WhyChooseUs'
 
 export default function Home() {
@@ -15,70 +16,8 @@ export default function Home() {
         {/* Hero Section */}
      <Hero />
 
-        {/* Services Preview */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-foreground mb-4">Our Services</h2>
-              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Comprehensive construction solutions tailored to your project needs
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Service 1 */}
-              <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border-t-4 border-secondary">
-                <div className="w-16 h-16 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Hammer className="w-8 h-8 text-secondary" />
-                </div>
-                <h3 className="text-2xl font-bold text-foreground mb-3">Architectural Design</h3>
-                <p className="text-gray-600 mb-4">
-                  Professional architectural design services including 3D rendering, structural analysis, and complete Bills of Quantities.
-                </p>
-                <Link href="/services" className="text-secondary font-semibold hover:text-primary transition flex items-center">
-                  Learn More <ArrowRight size={16} className="ml-2" />
-                </Link>
-              </div>
-
-              {/* Service 2 */}
-              <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border-t-4 border-primary">
-                <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Building2 className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-2xl font-bold text-foreground mb-3">Construction Services</h3>
-                <p className="text-gray-600 mb-4">
-                  Full construction management from concept to completion with modern technology and quality assurance at every stage.
-                </p>
-                <Link href="/services" className="text-secondary font-semibold hover:text-primary transition flex items-center">
-                  Learn More <ArrowRight size={16} className="ml-2" />
-                </Link>
-              </div>
-
-              {/* Service 3 */}
-              <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border-t-4 border-accent">
-                <div className="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                  <Zap className="w-8 h-8 text-accent" />
-                </div>
-                <h3 className="text-2xl font-bold text-foreground mb-3">Precast Slab Systems</h3>
-                <p className="text-gray-600 mb-4">
-                  Manufacturing and installation of rib beams, flat beams, and blocks for cost-effective, durable building solutions.
-                </p>
-                <Link href="/services" className="text-secondary font-semibold hover:text-primary transition flex items-center">
-                  Learn More <ArrowRight size={16} className="ml-2" />
-                </Link>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <Link
-                href="/services"
-                className="inline-flex items-center px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
-              >
-                View All Services <ArrowRight className="ml-2" size={20} />
-              </Link>
-            </div>
-          </div>
-        </section>
+     {/* Services Preview */}
+     <Services limit={15} />
 
         {/* Why Choose Us */}
       <WhyChooseUs />

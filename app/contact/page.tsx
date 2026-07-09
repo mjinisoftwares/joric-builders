@@ -29,6 +29,12 @@ export default function Contact() {
     e.preventDefault()
     // In a real application, you would send this data to a backend service
     console.log('Form submitted:', formData)
+    // Prepare WhatsApp message
+    const whatsappNumber = '254745114480'
+    const whatsappMessage = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\nMessage: ${formData.message}`
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
+    // Open WhatsApp chat in a new tab/window
+    window.open(whatsappUrl, '_blank')
     setSubmitted(true)
     setFormData({
       name: '',

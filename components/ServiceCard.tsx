@@ -41,7 +41,7 @@ export default function ServiceCard({ service }: { service: Service }) {
         </p>
         <Link 
           href={`/services/${service.slug}`} 
-          className="text-accent border border-accent px-4 py-2 rounded-md w-fit  font-semibold hover:text-primary transition-colors flex items-center mt-auto"
+          className="text-white bg-primary px-4 py-2 rounded-md w-fit  font-semibold hover:bg-accent transition-colors flex items-center mt-auto"
         >
           Learn More <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
         </Link>

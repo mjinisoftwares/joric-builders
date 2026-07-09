@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import FloatingContact from '@/components/FloatingContact'
 
 export const metadata: Metadata = {
   title: 'Joric Builders - Design-to-Build Construction Company Kenya',
@@ -45,6 +46,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="antialiased bg-background text-foreground">
         {children}
+        <FloatingContact />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

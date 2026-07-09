@@ -99,7 +99,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/joricbuilders"
+                href="https://www.facebook.com/joricbuilders/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-secondary rounded-lg transition"
@@ -108,7 +108,7 @@ export default function Footer() {
                 <Share2 size={20} />
               </a>
               <a
-                href="https://www.instagram.com/joricbuilders"
+                href="https://www.instagram.com/joricbuilders/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-secondary rounded-lg transition"

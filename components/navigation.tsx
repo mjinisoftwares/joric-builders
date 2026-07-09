@@ -87,22 +87,22 @@ export default function Navigation() {
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-gray-200 transition-colors" aria-label="Facebook">
+            <a href="https://www.facebook.com/joricbuilders/" className="hover:text-gray-200 transition-colors" aria-label="Facebook">
               <Facebook size={14} />
             </a>
             <a href="#" className="hover:text-gray-200 transition-colors" aria-label="Twitter">
               <Twitter size={14} />
             </a>
-            <a href="#" className="hover:text-gray-200 transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/joricbuilders/" className="hover:text-gray-200 transition-colors" aria-label="Instagram">
               <Instagram size={14} />
             </a>
-            <a href="#" className="hover:text-gray-200 transition-colors" aria-label="TikTok">
+            <a href="https://www.tiktok.com/@joricbuilders?_r=1&_t=ZS-96KHaWUt9kb" className="hover:text-gray-200 transition-colors" aria-label="TikTok">
               <TikTok size={14} />
             </a>
-            <a href="#" className="hover:text-gray-200 transition-colors" aria-label="YouTube">
+            <a href="https://www.youtube.com/channel/UCrVT6srfS2PgS-d62_xDF_Q/about" className="hover:text-gray-200 transition-colors" aria-label="YouTube">
               <Youtube size={14} />
             </a>
-            <a href="#" className="hover:text-gray-200 transition-colors" aria-label="Google">
+            <a href="https://www.youtube.com/channel/UCrVT6srfS2PgS-d62_xDF_Q/about" className="hover:text-gray-200 transition-colors" aria-label="Google">
               <Google size={14} />
             </a>
           </div>

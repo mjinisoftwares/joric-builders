@@ -53,31 +53,31 @@ export default async function ServicePage({ params }: Props) {
 
       <main className="flex-grow bg-gray-50">
         {/* Hero Section */}
-        <section className="py-16 md:py-24 bg-white overflow-hidden border-b border-gray-100">
-          <div className="container mx-auto px-4 max-w-7xl">
+        <section className="py-16 bg-accent/5 overflow-hidden border-b border-gray-100">
+          <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl">
             <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="w-full lg:w-1/2 text-left z-10 animate-in fade-in slide-in-from-left-8 duration-700">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-semibold mb-6">
-                  <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-6">
+                  <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                   Premium Service
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 ">
                   {service.title}
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 font-light leading-relaxed">
+                <p className="text-xl text-gray-600 mb-8 font-light ">
                   {service.shortDescription}
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Link href="#overview" className="inline-flex justify-center items-center px-6 py-3 text-base font-bold rounded-xl text-white bg-secondary hover:bg-secondary/90 shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
+                  <Link href="#overview" className="inline-flex justify-center items-center px-6 py-3 text-base font-bold rounded-xl text-white bg-primary hover:bg-secondary/90 shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
                     Explore Details
                   </Link>
-                  <Link href="/contact" className="inline-flex justify-center items-center px-6 py-3 text-base font-bold rounded-xl text-secondary bg-secondary/10 hover:bg-secondary/20 transition-all">
+                  <Link href="/contact" className="inline-flex justify-center items-center px-6 py-3 text-base font-bold rounded-xl text-white bg-accent hover:bg-secondary/20 transition-all">
                     Get a Quote
                   </Link>
                 </div>
               </div>
               <div className="w-full lg:w-1/2 relative z-10 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
-                <div className="relative h-[350px] md:h-[450px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative h-[350px] md:h-[450px] w-full rounded-2xl overflow-hidden shadow-2xl border-2 border-accent">
                   <Image
                     src={service.image}
                     alt={service.title}
@@ -97,7 +97,7 @@ export default async function ServicePage({ params }: Props) {
 
         {/* Main Content */}
         <section id="overview" className="py-16 md:py-24">
-          <div className="container mx-auto px-4 max-w-7xl">
+          <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
               
               {/* Left Column (Content) */}
@@ -174,7 +174,7 @@ export default async function ServicePage({ params }: Props) {
               {/* Right Column (Sidebar/Gallery/Contact) */}
               <div className="space-y-8">
                 {/* Sticky Sidebar */}
-                <div className="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-secondary sticky top-32">
+                <div className="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-primary sticky top-32">
                   <div className="relative h-72 w-full rounded-xl overflow-hidden mb-8 group">
                     <Image
                       src={service.image}
@@ -194,7 +194,7 @@ export default async function ServicePage({ params }: Props) {
                     <p className="text-gray-600 mb-8 leading-relaxed">
                       Ready to transform your vision into reality? Our team is here to deliver exceptional {service.title.toLowerCase()} services.
                     </p>
-                    <Link href="/contact" className="w-full inline-flex justify-center items-center px-8 py-4 text-lg font-bold rounded-xl text-white bg-secondary hover:bg-primary hover:-translate-y-1 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <Link href="/contact" className="w-full inline-flex justify-center items-center px-8 py-4 text-lg font-bold rounded-xl text-white bg-accent hover:bg-primary hover:-translate-y-1 shadow-lg hover:shadow-xl transition-all duration-300">
                       Get a Free Quote <ArrowRight className="ml-2 w-6 h-6" />
                     </Link>
                     <div className="mt-6 pt-6 border-t border-gray-100">
@@ -219,7 +219,7 @@ export default async function ServicePage({ params }: Props) {
         {/* Related Services */}
         {relatedServices.length > 0 && (
           <section className="py-20 bg-white border-t border-gray-100">
-            <div className="container mx-auto px-4 max-w-7xl">
+            <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl">
               <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Related Services</h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">

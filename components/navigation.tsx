@@ -76,7 +76,7 @@ export default function Navigation() {
           isScrolled ? 'h-0 opacity-0' : 'h-10 opacity-100'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex justify-between items-center text-xs sm:text-sm">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 h-full flex justify-between items-center text-xs sm:text-sm">
           <div className="flex items-center gap-4 sm:gap-6">
             <a href="mailto:info@joricbuilders.com" className="flex items-center gap-1.5 hover:text-gray-200 transition-colors">
               <Mail size={14} />
@@ -111,7 +111,7 @@ export default function Navigation() {
       </div>
 
       <nav className="w-full bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
         <div className="flex justify-between items-center h-22">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">

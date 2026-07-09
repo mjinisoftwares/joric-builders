@@ -6,9 +6,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const carouselImages = [
-  "/joric-1.png",
-  "/joric-2.png",
-  "/joric-3.png",
+  "/images/services/cabros-and-pavers/Cabros-and-pavers-1.webp",
+  "/images/services/concrete-poles/concrete-poles-1.webp",
+  "/images/services/prestressed-beams-and-blocks/PRESTRESSED-BEAMS-AND-BLOCKS-1-a.webp",
+  "/images/services/prestressed-beams-and-blocks/PRESTRESSED-BEAMS-AND-BLOCKS-1-c.webp",
+  "/images/services/prestressed-beams-and-blocks/PRESTRESSED-BEAMS-AND-BLOCKS-1-d.webp",
+  "/images/services/interior-finishing/interior-finishing-2.webp",
+  "/images/services/roofing/roofing-1.webp",
+  "/images/services/swimming-pools/swimming-pools-2.webp",
+  "/images/services/wall-panels/wall-panels-1.webp",
+
 ]
 
 export default function Hero() {

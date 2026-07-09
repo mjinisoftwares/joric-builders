@@ -3,6 +3,7 @@ import Footer from '@/components/footer'
 import Link from 'next/link'
 import { ArrowRight, CheckCircle, Hammer, Building2, Zap, Palette, Wrench, HomeIcon } from 'lucide-react'
 import { Metadata } from 'next'
+import ServicesGrid from '@/components/Services'
 
 export const metadata: Metadata = {
   title: 'Services - Joric Builders | Construction & Design Solutions Kenya',
@@ -11,86 +12,7 @@ export const metadata: Metadata = {
 }
 
 export default function Services() {
-  const services = [
-    {
-      icon: Hammer,
-      title: 'Architectural Design',
-      description: 'Complete architectural design services from concept to detailed plans',
-      features: [
-        '3D house rendering and visualization',
-        'Detailed architectural drawings',
-        'Bills of Quantities (BoQ)',
-        'Space planning and optimization',
-        'Modern design solutions',
-      ],
-      color: 'secondary',
-    },
-    {
-      icon: Building2,
-      title: 'Structural Engineering',
-      description: 'Professional structural analysis and design for safe, durable buildings',
-      features: [
-        'Structural analysis and design',
-        'Foundation design',
-        'Load calculations',
-        'Compliance with building codes',
-        'Engineering certifications',
-      ],
-      color: 'primary',
-    },
-    {
-      icon: Zap,
-      title: 'Precast Slab Systems',
-      description: 'Manufacturing and installation of modern precast building systems',
-      features: [
-        'Rib beams & blocks manufacturing',
-        'Flat beams & blocks installation',
-        'T-beams & blocks slab systems',
-        'Cost-effective solutions',
-        'Quality assurance',
-      ],
-      color: 'accent',
-    },
-    {
-      icon: Building2,
-      title: 'Construction Management',
-      description: 'Full project management from planning to completion',
-      features: [
-        'Project planning and scheduling',
-        'Quality control',
-        'Cost management',
-        'Progress monitoring',
-        'Site safety compliance',
-      ],
-      color: 'secondary',
-    },
-    {
-      icon: Palette,
-      title: 'Interior & Exterior Finishes',
-      description: 'Premium finishing solutions for residential and commercial properties',
-      features: [
-        'Terrazzo floor installation',
-        'Cabro paving',
-        'Professional painting',
-        'Tile and stonework',
-        'Modern finishes',
-      ],
-      color: 'primary',
-    },
-    {
-      icon: Wrench,
-      title: 'Structural Extensions',
-      description: 'Renovation and extension services for existing structures',
-      features: [
-        'Property extensions',
-        'Structural renovations',
-        'Modern roofing works',
-        'Reinforcement works',
-        'Restoration services',
-      ],
-      color: 'accent',
-    },
-  ]
+
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -98,62 +20,18 @@ export default function Services() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-primary to-primary-foreground py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-gradient-to-r from-primary to-accent py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center text-center">
             <h1 className="text-5xl font-bold text-white mb-4">Our Services</h1>
-            <p className="text-xl text-gray-100">
-              Comprehensive construction and design solutions tailored to your needs
+            <p className="text-xl text-gray-100 max-w-4xl mx-auto">
+             We Offer a wide range of construction services to meet your needs.
+             From design and planning to construction and completion, we've got you covered.
             </p>
           </div>
         </section>
 
         {/* Services Grid */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-8">
-              {services.map((service, index) => {
-                const Icon = service.icon
-                const borderColor =
-                  service.color === 'secondary' ? 'border-secondary' : 
-                  service.color === 'accent' ? 'border-accent' : 
-                  'border-primary'
-                const bgColor =
-                  service.color === 'secondary' ? 'bg-secondary/10 text-secondary' : 
-                  service.color === 'accent' ? 'bg-accent/10 text-accent' : 
-                  'bg-primary/10 text-primary'
-
-                return (
-                  <div
-                    key={index}
-                    className={`bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border-t-4 ${borderColor}`}
-                  >
-                    <div className={`w-16 h-16 ${bgColor} rounded-lg flex items-center justify-center mb-4`}>
-                      <Icon className="w-8 h-8" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-foreground mb-3">{service.title}</h3>
-                    <p className="text-gray-600 mb-6">{service.description}</p>
-
-                    <div className="space-y-2 mb-6">
-                      {service.features.map((feature, fIndex) => (
-                        <div key={fIndex} className="flex items-center gap-2">
-                          <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0" />
-                          <p className="text-gray-700">{feature}</p>
-                        </div>
-                      ))}
-                    </div>
-
-                    <Link
-                      href="/contact"
-                      className="text-secondary font-semibold hover:text-primary transition flex items-center"
-                    >
-                      Get Quote <ArrowRight size={16} className="ml-2" />
-                    </Link>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </section>
+     <ServicesGrid />
 
         {/* Service Process */}
         <section className="py-20 bg-white">
@@ -247,7 +125,7 @@ export default function Services() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-gradient-to-r from-primary to-primary-foreground text-white">
+        <section className="py-20 bg-primary/80 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl font-bold mb-6">Ready to Bring Your Project to Life?</h2>
             <p className="text-xl text-gray-100 max-w-2xl mx-auto mb-8">
@@ -256,7 +134,7 @@ export default function Services() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
+                className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
               >
                 Contact Us <ArrowRight className="ml-2" size={20} />
               </Link>

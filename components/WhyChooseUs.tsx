@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
               WHY CHOOSE US
             </span>
 
-            <h2 className="text-4xl md:text-5xl font-black text-primary leading-tight mb-6">
+            <h2 className="text-4xl  font-black text-primary mb-6">
              Why We're the Best
               <span className="block text-accent">
                Construction
@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
                Company In Kenya
             </h2>
 
-            <p className="text-lg text-gray-600 leading-8 mb-10">
+            <p className="text-md text-gray-600 leading-8 mb-8">
               At <strong>Joric Builders</strong>, we combine innovative
               construction techniques, skilled professionals, and quality
               craftsmanship to deliver projects that exceed expectations.
@@ -62,14 +62,14 @@ export default function WhyChooseUs() {
               unwavering commitment to excellence.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-5 mb-10">
+            <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {features.map((feature) => (
-                <div key={feature} className="flex items-start gap-3">
+                <div key={feature} className="flex items-start gap-2">
                   <div className="mt-1">
                     <CheckCircle className="h-6 w-6 text-secondary" />
                   </div>
 
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 text-xs">
                     {feature}
                   </p>
                 </div>

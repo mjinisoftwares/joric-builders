@@ -24,7 +24,7 @@ export const services: Service[] = [
   {
     id: '12',
     slug: 't-beams',
-    title: 'T-Beams in Kenya',
+    title: 'T-Beams',
     shortDescription: 'High-quality T-beams for strong, durable, and cost-effective structures.',
     description: 'We manufacture and supply premium T-beams. Engineered for superior load-bearing capacity and structural integrity, our T-beams ensure your residential, commercial, or industrial projects are built to last.',
     icon: 'Package',
@@ -57,7 +57,7 @@ export const services: Service[] = [
   {
     id: '13',
     slug: 'building-materials-supplier',
-    title: 'Building Materials Supplier in Kenya',
+    title: 'Building Materials Supplier',
     shortDescription: 'Essential construction materials for strong, durable, and cost-effective structures.',
     description: 'We supply a comprehensive range of premium construction materials. Our materials guarantee strength, efficiency, and long-term durability for residential, commercial, or industrial projects.',
     icon: 'Truck',
@@ -90,7 +90,7 @@ export const services: Service[] = [
   {
     id: '1',
     slug: 'cabros-and-pavers',
-    title: 'Cabro & Paver Installation in Kenya',
+    title: 'Cabro & Paver Installation',
     shortDescription: 'Expert installation of both colored and normal cabros.',
     description: 'We ensure all process is well done from leveling, hand packing, compressing, laying, table compaction & vanishing. Both colored and normal cabros.',
     icon: 'Layout',
@@ -118,7 +118,7 @@ export const services: Service[] = [
   {
     id: '2',
     slug: 'prestressed-beams-and-blocks',
-    title: 'Prestressed Beams & Blocks in Kenya',
+    title: 'Prestressed Beams & Blocks',
     shortDescription: 'A modern, efficient, and cost-saving slab system designed for fast construction and superior structural performance.',
     description: 'A modern, efficient, and cost-saving slab system designed for fast construction and superior structural performance. Ideal for residential, commercial, extensions, and renovation projects.',
     icon: 'Building2',
@@ -147,7 +147,7 @@ export const services: Service[] = [
   {
     id: '3',
     slug: 'concrete-fiber-mesh',
-    title: 'Concrete Fiber Mesh Solutions in Kenya',
+    title: 'Concrete Fiber Mesh Solutions',
     shortDescription: 'Strong. Durable. Crack Resistant. Upgrade your construction with high-performance concrete fiber mesh.',
     description: 'Upgrade your construction with high-performance concrete fiber mesh designed to improve structural strength and minimize surface cracking. Ideal for slabs, pavements, rib & beam systems, warehouses, driveways, and commercial floors.',
     icon: 'Grid',
@@ -175,7 +175,7 @@ export const services: Service[] = [
   {
     id: '4',
     slug: 'mansionnate-design',
-    title: 'Luxury Mansionette Design & Build in Kenya',
+    title: 'Luxury Mansionette Design & Build',
     shortDescription: 'Luxurious mansionates designed and built by Joricbuilders.',
     description: 'Elevate your lifestyle with a luxurious mansionate designed and built by Joricbuilders. We create spacious, elegant, and modern homes that reflect sophistication and comfort. Every design is tailored to your taste, combining style, functionality, and structural excellence.',
     icon: 'Home',
@@ -206,7 +206,7 @@ export const services: Service[] = [
   {
     id: '5',
     slug: 'roofing-experts',
-    title: 'Professional Roofing Services in Kenya',
+    title: 'Professional Roofing Services',
     shortDescription: 'Modern, durable, and weather-resistant roofs designed to protect and impress.',
     description: 'Upgrade your home or project with high-quality roofing services. We specialize in modern, durable, and weather-resistant roofs designed to protect and impress.',
     icon: 'Hammer',
@@ -237,7 +237,7 @@ export const services: Service[] = [
   {
     id: '6',
     slug: 'terrazzo-floors',
-    title: 'Terrazzo Flooring Installation in Kenya',
+    title: 'Terrazzo Flooring Installation',
     shortDescription: 'Premium terrazzo floors that combine elegance, durability, and timeless style.',
     description: 'Crafted from high-quality marble, granite, and glass chips bonded into a seamless polished surface, our terrazzo flooring delivers exceptional strength for homes, offices, and commercial spaces. Designed for beauty and long-lasting performance, each finish offers low maintenance, stain resistance, and customizable patterns to match your interior vision.',
     icon: 'Sparkles',
@@ -266,7 +266,7 @@ export const services: Service[] = [
   {
     id: '7',
     slug: 'wall-panels',
-    title: 'Wall Panel Construction in Kenya',
+    title: 'Wall Panel Construction',
     shortDescription: 'Modern and efficient wall panels offering a smart alternative to traditional masonry.',
     description: 'Looking for a modern and efficient way to build your walls? Our wall panels offer a smart alternative to traditional masonry. Quick installation, strong structure, and cost-effective.',
     icon: 'Layers',
@@ -296,7 +296,7 @@ export const services: Service[] = [
   {
     id: '8',
     slug: 'modern-apartment-design',
-    title: 'Modern Apartment Design & Construction in Kenya',
+    title: 'Modern Apartment Design & Construction',
     shortDescription: 'Beautiful, strong, and modern apartment designs from concept to construction.',
     description: 'We design and build beautiful, strong, and modern apartments. From concept, approvals, to construction we handle everything professionally.',
     icon: 'Building',
@@ -323,7 +323,7 @@ export const services: Service[] = [
   {
     id: '9',
     slug: 'swimming-pools-septics-boreholes',
-    title: 'Swimming Pools, Septic Tanks & Boreholes in Kenya',
+    title: 'Swimming Pools, Septic Tanks & Boreholes',
     shortDescription: 'Expert construction of swimming pools, septic tanks, and boreholes.',
     description: 'We provide expert construction and installation of swimming pools, septic systems, and boreholes, ensuring high-quality, durable, and efficient solutions for your residential or commercial needs.',
     icon: 'Waves',
@@ -351,7 +351,7 @@ export const services: Service[] = [
   {
     id: '10',
     slug: 'bio-digesta',
-    title: 'Bio Digester Construction in Kenya',
+    title: 'Bio Digester Construction',
     shortDescription: 'Modern Bio digesta construction to utilize your space efficiently.',
     description: 'Modern Bio digesta construction, utilize your space, avoid odour and exhauster machines. An eco-friendly and cost-effective waste management solution.',
     icon: 'Leaf',
@@ -379,7 +379,7 @@ export const services: Service[] = [
   {
     id: '11',
     slug: 'interior-finishing',
-    title: 'Interior Finishing Services in Kenya',
+    title: 'Interior Finishing Services',
     shortDescription: 'Professional interior finishing services to elevate your spaces.',
     description: 'We provide top-notch interior finishing services, ensuring a clean, modern, and aesthetically pleasing look for your residential or commercial property. From painting to fixtures, we handle it all with precision.',
     icon: 'Paintbrush',

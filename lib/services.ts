@@ -145,6 +145,7 @@ export const services: Service[] = [
     description: 'Upgrade your home or project with high-quality roofing services. We specialize in modern, durable, and weather-resistant roofs designed to protect and impress.',
     icon: 'Hammer',
     image: '/images/services/roofing/roofing-1.webp',
+    gallery: ["/images/services/roofing/roofing-1.webp","/images/services/roofing/roofing-2.webp","/images/services/roofing/roofing-3.webp","/images/services/roofing/roofing-4.webp","/images/services/roofing/roofing-5.webp","/images/services/roofing/roofing-6.webp"],
     features: [
       'Mabati roofing (Box profile, Tile profile, Corrugated)',
       'Roof installation & repairs',
@@ -261,6 +262,7 @@ export const services: Service[] = [
     description: 'We provide expert construction and installation of swimming pools, septic systems, and boreholes, ensuring high-quality, durable, and efficient solutions for your residential or commercial needs.',
     icon: 'Waves',
     image: '/images/services/swimming-pools/swimming-pools-1.webp',
+    gallery: ["/images/services/swimming-pools/swimming-pools-1.webp","/images/services/swimming-pools/swimming-pools-2.webp","/images/services/swimming-pools/swimming-pools-3.webp","/images/services/swimming-pools/swimming-pools-4.webp"],
     features: [
       'Custom swimming pool design and construction',
       'Efficient septic tank installation',

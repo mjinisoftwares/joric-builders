@@ -22,6 +22,39 @@ export interface Service {
 
 export const services: Service[] = [
   {
+    id: '12',
+    slug: 't-beams-and-construction-materials',
+    title: 'T-Beams & Construction Materials in Kenya',
+    shortDescription: 'High-quality T-beams and essential construction materials for strong, durable, and cost-effective structures.',
+    description: 'We manufacture and supply premium T-beams along with a comprehensive range of construction materials. Engineered for superior load-bearing capacity and structural integrity, our T-beams ensure your residential, commercial, or industrial projects are built to last. Our materials guarantee strength, efficiency, and long-term durability.',
+    icon: 'Package',
+    image: '/images/services/T-beams-and-construction-materials/T-beams-and-construction-materials-1.webp',
+    gallery: [
+      "/images/services/T-beams-and-construction-materials/T-beams-and-construction-materials-1.webp",
+      "/images/services/T-beams-and-construction-materials/T-beams-and-construction-materials-2.webp",
+      "/images/services/T-beams-and-construction-materials/T-beams-and-construction-materials-3.webp",
+      "/images/services/T-beams-and-construction-materials/T-beams-and-construction-materials-4.webp"
+    ],
+    features: [
+      'High load-bearing capacity and structural strength',
+      'Premium, durable, and weather-resistant materials',
+      'Cost-effective and time-saving construction solutions',
+      'Timely and reliable site delivery',
+      'Ideal for residential, commercial, and industrial projects'
+    ],
+    process: [
+      { step: 1, title: 'Consultation & Estimation', description: 'Assessing your structural requirements and providing accurate material estimates.' },
+      { step: 2, title: 'Manufacturing', description: 'Precision manufacturing of high-quality T-beams to exact specifications.' },
+      { step: 3, title: 'Quality Assurance', description: 'Rigorous testing of all materials to ensure safety and durability.' },
+      { step: 4, title: 'Site Delivery', description: 'Safe and timely transportation of materials directly to your project site.' }
+    ],
+    faq: [
+      { question: 'Do you deliver construction materials directly to the site?', answer: 'Yes, we offer fast and reliable delivery services directly to your construction site.' },
+      { question: 'Are your T-beams suitable for multi-story structures?', answer: 'Absolutely. Our T-beams are specifically engineered to provide exceptional support for multi-story buildings and heavy-duty applications.' }
+    ],
+    relatedServices: ['2', '7']
+  },
+  {
     id: '1',
     slug: 'cabros-and-pavers',
     title: 'Cabro & Paver Installation in Kenya',

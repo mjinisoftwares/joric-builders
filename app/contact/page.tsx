@@ -54,8 +54,8 @@ export default function Contact() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-primary to-primary-foreground py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-primary py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center items-center">
             <h1 className="text-5xl font-bold text-white mb-4">Get In Touch</h1>
             <p className="text-xl text-gray-100">
               We&apos;re ready to discuss your construction project
@@ -256,7 +256,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-br from-primary/10 to-secondary/10 p-6 rounded-lg">
+                <div className="bg-primary/10 p-6 rounded-lg">
                   <h3 className="text-xl font-bold text-foreground mb-4">Service Hours</h3>
                   <div className="space-y-2 text-gray-700">
                     <p>
@@ -322,7 +322,7 @@ export default function Contact() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 bg-gradient-to-r from-primary to-primary-foreground text-white">
+        <section className="py-16 bg-accent text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
             <p className="text-lg text-gray-100 mb-6">

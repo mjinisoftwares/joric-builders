@@ -77,9 +77,9 @@ export default function Navigation() {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 h-full flex justify-between items-center text-xs sm:text-sm">
           <div className="flex items-center gap-4 sm:gap-6">
-            <a href="mailto:info@joricbuilders.com" className="flex items-center gap-1.5 hover:text-gray-200 transition-colors">
+            <a href="mailto:info@joricbuilders.co.ke" className="flex items-center gap-1.5 hover:text-gray-200 transition-colors">
               <Mail size={14} />
-              <span className="hidden sm:inline">info@joricbuilders.com</span>
+              <span className="hidden sm:inline">info@joricbuilders.co.ke</span>
             </a>
             <a href="tel:+254745114480" className="flex items-center gap-1.5 hover:text-gray-200 transition-colors">
               <Phone size={14} />

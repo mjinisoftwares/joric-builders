@@ -81,7 +81,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <Mail size={18} className="mt-1 flex-shrink-0" />
-                <p className="text-sm text-gray-200">info@joricbuilders.com</p>
+                <p className="text-sm text-gray-200">info@joricbuilders.co.ke</p>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />

@@ -88,10 +88,10 @@ export default function Contact() {
                   <Mail size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
-                <p className="text-gray-600 mb-2">info@joricbuilders.com</p>
+                <p className="text-gray-600 mb-2">info@joricbuilders.co.ke</p>
                 <p className="text-sm text-gray-500">We respond within 24 hours</p>
                 <a
-                  href="mailto:info@joricbuilders.com"
+                  href="mailto:info@joricbuilders.co.ke"
                   className="inline-block mt-4 text-secondary font-semibold hover:text-primary transition"
                 >
                   Send Email →

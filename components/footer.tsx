@@ -197,7 +197,7 @@ export default function Footer() {
                 href="https://www.mjinidigital.co.ke/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold text-secondary hover:underline"
+                className="font-semibold text-accent hover:underline"
               >
                 Mjini Digital
               </Link>
